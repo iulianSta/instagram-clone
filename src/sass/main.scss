@@ -15,6 +15,13 @@
 
 // Test fontawesome icons
 
+.search {
+  @extend %fa-icon;
+  @extend .fas;
+  &:before {
+    content: fa-content($fa-var-search);
+  }
+}
 .user {
   @extend %fa-icon;
   @extend .fas;
