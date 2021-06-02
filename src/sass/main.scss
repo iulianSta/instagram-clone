@@ -12,3 +12,13 @@
 
 //Layout
 @import "./layouts/_layouts-dir";
+
+// Test fontawesome icons
+
+.searchbox {
+  @extend %fa-icon;
+  @extend .fas;
+  &:before {
+    content: fa-content($fa-var-user);
+  }
+}
