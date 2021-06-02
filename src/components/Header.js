@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div>
       <div>
-        <div>profile Image</div>
+        <div className="user">profile Image</div>
         <div>Content</div>
       </div>
       <div>Followers Images</div>

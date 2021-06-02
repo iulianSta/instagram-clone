@@ -15,7 +15,7 @@
 
 // Test fontawesome icons
 
-.searchbox {
+.user {
   @extend %fa-icon;
   @extend .fas;
   &:before {
