@@ -4,8 +4,10 @@ const Nav = () => {
   return (
     <div>
       <nav>
+        <div>Instagram</div>
+        <div>Search Box</div>
         <ul>
-          <li>I am a nav list</li>
+          <li>Menu</li>
         </ul>
       </nav>
     </div>
