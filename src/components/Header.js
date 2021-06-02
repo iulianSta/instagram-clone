@@ -1,7 +1,15 @@
 // Header function
 
 const Header = () => {
-  return <div>Header place</div>;
+  return (
+    <div>
+      <div>
+        <div>profile Image</div>
+        <div>Content</div>
+      </div>
+      <div>Followers Images</div>
+    </div>
+  );
 };
 
 // Export Header
