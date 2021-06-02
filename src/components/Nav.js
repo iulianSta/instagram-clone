@@ -5,7 +5,7 @@ const Nav = () => {
     <div>
       <nav>
         <div>Instagram</div>
-        <div>Search Box</div>
+        <div className="searchbox">Search Box</div>
         <ul>
           <li>Menu</li>
         </ul>
