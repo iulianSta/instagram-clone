@@ -1,3 +1,7 @@
+// Import React from "react"
+import React from "react";
+// Import {useState} from "react";
+import { useState } from "react";
 // Import Nav
 import Nav from "./components/Nav";
 // Import Header
