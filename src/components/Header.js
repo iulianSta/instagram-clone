@@ -6,7 +6,12 @@ const Header = ({ owner, profileImg, subscribers }) => {
       <div>
         <div className="user">{profileImg}</div>
         <div>
-          <h3>{owner}</h3>
+          <h3>
+            {owner} <span>&#9745;</span>
+          </h3>
+          <button type="button">Follow</button>
+          <button type="select">v</button>
+          <span>...</span>
         </div>
       </div>
       <div>{subscribers}</div>
