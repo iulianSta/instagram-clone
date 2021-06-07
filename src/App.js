@@ -13,6 +13,21 @@ import Data from "./data.json";
 console.log(Data);
 
 function App() {
+  const post = Data.map((obj) => {
+    const {
+      id,
+      owner,
+      avatar,
+      profileImg,
+      posts,
+      followers,
+      following,
+      team,
+      website,
+      subscribers,
+      photos,
+    } = obj;
+  });
   return (
     <div className="App">
       <Nav />
