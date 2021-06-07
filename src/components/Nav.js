@@ -6,7 +6,11 @@ const Nav = () => {
       <nav>
         <div>Instagram</div>
         <div>
-          <input type="searchbox" className="search" placeholder="Search" />
+          <input
+            type="searchbox"
+            className="search"
+            placeholder="&#128269; Search"
+          />
         </div>
         <ul>
           <li>Menu</li>
