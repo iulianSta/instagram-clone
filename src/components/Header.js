@@ -1,13 +1,15 @@
 // Header function
 
-const Header = () => {
+const Header = ({ owner, profileImg, subscribers }) => {
   return (
     <div>
       <div>
-        <div className="user">profile Image</div>
-        <div>Content</div>
+        <div className="user">{profileImg}</div>
+        <div>
+          <h3>{owner}</h3>
+        </div>
       </div>
-      <div>Followers Images</div>
+      <div>{subscribers}</div>
     </div>
   );
 };

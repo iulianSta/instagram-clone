@@ -27,14 +27,19 @@ function App() {
       subscribers,
       photos,
     } = obj;
+    return (
+      <div className="post" key={id}>
+        <Nav />
+        <Header
+          owner={owner}
+          profileImg={profileImg}
+          subscribers={subscribers}
+        />
+        <Gallery />
+      </div>
+    );
   });
-  return (
-    <div className="App">
-      <Nav />
-      <Header />
-      <Gallery />
-    </div>
-  );
+  return <div className="App">{post}</div>;
 }
 
 export default App;
