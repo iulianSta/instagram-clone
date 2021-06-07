@@ -1,6 +1,13 @@
 // Header function
 
-const Header = ({ owner, profileImg, subscribers }) => {
+const Header = ({
+  owner,
+  profileImg,
+  subscribers,
+  posts,
+  followers,
+  following,
+}) => {
   return (
     <div>
       <div>
@@ -12,6 +19,15 @@ const Header = ({ owner, profileImg, subscribers }) => {
           <button type="button">Follow</button>
           <button type="select">v</button>
           <span>...</span>
+          <div>
+            <span>{posts} posts</span>
+            <br />
+            <span>{followers} followers</span>
+            <br />
+            <span>{following} following</span>
+            <br />
+          </div>
+          <div></div>
         </div>
       </div>
       <div>{subscribers}</div>

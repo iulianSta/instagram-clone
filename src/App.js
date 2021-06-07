@@ -34,6 +34,9 @@ function App() {
           owner={owner}
           profileImg={profileImg}
           subscribers={subscribers}
+          posts={posts}
+          followers={followers}
+          following={following}
         />
         <Gallery />
       </div>
