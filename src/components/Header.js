@@ -7,6 +7,8 @@ const Header = ({
   posts,
   followers,
   following,
+  team,
+  website,
 }) => {
   return (
     <div>
@@ -20,14 +22,19 @@ const Header = ({
           <button type="select">v</button>
           <span>...</span>
           <div>
-            <span>{posts} posts</span>
-            <br />
-            <span>{followers} followers</span>
-            <br />
-            <span>{following} following</span>
-            <br />
+            <span> {posts} posts </span>
+            <span> {followers} followers </span>
+            <span> {following} following </span>
+            <p>
+              <span>{team}</span>
+              <br />
+              <span>
+                Visit our YouTube channel @teamWang to watch our latest videos
+              </span>
+              <br />
+              <span>{website}</span>
+            </p>
           </div>
-          <div></div>
         </div>
       </div>
       <div>{subscribers}</div>

@@ -37,6 +37,8 @@ function App() {
           posts={posts}
           followers={followers}
           following={following}
+          team={team}
+          website={website}
         />
         <Gallery />
       </div>
