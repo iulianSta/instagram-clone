@@ -2,7 +2,7 @@
 
 const Nav = ({ avatar }) => {
   return (
-    <div>
+    <div className="menu">
       <nav>
         <div>Instagram</div>
         <div>
