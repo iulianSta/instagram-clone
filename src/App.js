@@ -29,7 +29,7 @@ function App() {
     } = obj;
     return (
       <div className="post" key={id}>
-        <Nav />
+        <Nav avatar={avatar} />
         <Header
           owner={owner}
           profileImg={profileImg}

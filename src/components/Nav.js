@@ -1,6 +1,6 @@
 // Nav function
 
-const Nav = () => {
+const Nav = ({ avatar }) => {
   return (
     <div>
       <nav>
@@ -13,7 +13,11 @@ const Nav = () => {
           />
         </div>
         <ul>
-          <li>Menu</li>
+          <li>home</li>
+          <li>message</li>
+          <li>location</li>
+          <li>heart</li>
+          <li>{avatar}</li>
         </ul>
       </nav>
     </div>
