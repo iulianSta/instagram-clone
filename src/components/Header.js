@@ -18,9 +18,9 @@ const Header = ({
           <h3>
             {owner} <span>&#9745;</span>
           </h3>
-          <button type="button">Follow</button>
-          <button type="select">v</button>
-          <span>...</span>
+          <button type="button"> Follow </button>
+          <button type="select"> v </button>
+          <span> ... </span>
           <div>
             <span> {posts} posts </span>
             <span> {followers} followers </span>
