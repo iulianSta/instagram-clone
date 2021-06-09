@@ -4,10 +4,10 @@ const Gallery = () => {
   return (
     <div>
       <div>
-        <span>POSTS</span>
-        <span>REELS</span>
-        <span>IGTV</span>
-        <span>TAGGED</span>
+        <span> POSTS </span>
+        <span> REELS </span>
+        <span> IGTV </span>
+        <span> TAGGED </span>
       </div>
       <div>
         <div>3 Images</div>
