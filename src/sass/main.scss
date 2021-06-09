@@ -22,10 +22,31 @@
     content: fa-content($fa-var-search);
   }
 }
-.user {
+.home {
   @extend %fa-icon;
   @extend .fas;
   &:before {
-    content: fa-content($fa-var-user);
+    content: fa-content($fa-var-home);
+  }
+}
+.message {
+  @extend %fa-icon;
+  @extend .fas;
+  &:before {
+    content: fa-content($fa-var-paper-plane);
+  }
+}
+.compass {
+  @extend %fa-icon;
+  @extend .fas;
+  &:before {
+    content: fa-content($fa-var-compass);
+  }
+}
+.heart {
+  @extend %fa-icon;
+  @extend .fas;
+  &:before {
+    content: fa-content($fa-var-heart);
   }
 }

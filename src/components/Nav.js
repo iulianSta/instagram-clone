@@ -13,10 +13,18 @@ const Nav = ({ avatar }) => {
           />
         </div>
         <ul>
-          <li>home</li>
-          <li>message</li>
-          <li>location</li>
-          <li>heart</li>
+          <li>
+            <i className="home"></i>
+          </li>
+          <li>
+            <i className="message"></i>
+          </li>
+          <li>
+            <i className="compass"></i>
+          </li>
+          <li>
+            <i className="heart"></i>
+          </li>
           <li>{avatar}</li>
         </ul>
       </nav>
