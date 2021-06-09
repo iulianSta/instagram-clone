@@ -1,6 +1,6 @@
 // Gallery function
 
-const Gallery = () => {
+const Gallery = ({ photos }) => {
   return (
     <div>
       <div>
@@ -10,8 +10,8 @@ const Gallery = () => {
         <span> TAGGED </span>
       </div>
       <div>
-        <div>3 Images</div>
-        <div>Another 3 Images</div>
+        <div>{photos}</div>
+        <div>{photos}</div>
       </div>
     </div>
   );

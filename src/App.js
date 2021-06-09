@@ -10,8 +10,8 @@ import Header from "./components/Header";
 import Gallery from "./components/Gallery";
 // Import Data
 import Data from "./data.json";
-console.log(Data);
 
+// App function
 function App() {
   const post = Data.map((obj) => {
     const {
@@ -40,11 +40,12 @@ function App() {
           team={team}
           website={website}
         />
-        <Gallery />
+        <Gallery photos={photos} />
       </div>
     );
   });
   return <div className="App">{post}</div>;
 }
 
+// Export App
 export default App;
