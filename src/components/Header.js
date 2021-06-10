@@ -27,7 +27,7 @@ const Header = ({
             </h3>
             <button type="button"> Follow </button>
             <button type="select"> v </button>
-            <span> ... </span>
+            <span className="more"> ... </span>
           </div>
           <div>
             <span> {posts} posts </span>

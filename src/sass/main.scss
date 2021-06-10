@@ -81,6 +81,8 @@
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    opacity: 0.6;
+    cursor: pointer;
     .avatar {
       width: 1.2rem;
       height: 1.2rem;
@@ -139,9 +141,40 @@
       border-radius: 50%;
       bottom: 0.4rem;
       left: 0.43rem;
+      cursor: pointer;
     }
   }
   .user-area {
+    width: 60%;
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 1em;
+    cursor: pointer;
+    h3 {
+      i {
+        color: rgb(59, 175, 248);
+      }
+    }
+    button {
+      font-size: 10px;
+      font-weight: bold;
+      color: white;
+      background-color: rgb(59, 175, 248);
+      border-radius: 3px;
+      border: none;
+    }
+    :nth-child(2) {
+      width: 3rem;
+      height: 1.2rem;
+    }
+    :nth-child(3) {
+      font-weight: lighter;
+      width: 1.5rem;
+      height: 1.2rem;
+    }
+    .more {
+      font-weight: bold;
+    }
   }
 }
