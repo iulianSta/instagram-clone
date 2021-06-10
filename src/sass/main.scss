@@ -85,7 +85,16 @@
   & > div {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+  }
+  .user {
+    .profile {
+      width: 7rem;
+      height: 7rem;
+      border: 2px solid;
+      border-radius: 50%;
+      margin: linear-gradient(to right, yellow, purple);
+    }
   }
   .user-area {
     display: flex;

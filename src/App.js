@@ -1,7 +1,7 @@
 // Import React from "react"
 import React from "react";
 // Import {useState} from "react";
-import { useState } from "react";
+//import { useState } from "react";
 // Import Nav
 import Nav from "./components/Nav";
 // Import Header
@@ -12,6 +12,7 @@ import Gallery from "./components/Gallery";
 import Data from "./data.json";
 import bts from "./img/bts.png";
 import Avatar from "./img/i-love-img.jpg";
+import Profile from "./img/jw-profile-img.jpg";
 
 // App function
 function App() {
@@ -40,6 +41,7 @@ function App() {
           following={following}
           team={team}
           website={website}
+          Profile={Profile}
         />
         <Gallery photos={photos} bts={bts} />
       </div>

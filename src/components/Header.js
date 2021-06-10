@@ -2,7 +2,7 @@
 
 const Header = ({
   owner,
-  profileImg,
+  Profile,
   subscribers,
   posts,
   followers,
@@ -13,7 +13,9 @@ const Header = ({
   return (
     <div className="header">
       <div>
-        <div className="user">{profileImg}</div>
+        <div className="user">
+          <img src={Profile} alt="Jackson Wang" className="profile" />
+        </div>
         <div>
           <div className="user-area">
             <h3>
