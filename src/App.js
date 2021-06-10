@@ -11,7 +11,7 @@ import Gallery from "./components/Gallery";
 // Import Data
 import Data from "./data.json";
 import bts from "./img/bts.png";
-import profile from "./img/i-love-img.jpg";
+import Avatar from "./img/i-love-img.jpg";
 
 // App function
 function App() {
@@ -19,7 +19,6 @@ function App() {
     const {
       id,
       owner,
-      avatar,
       profileImg,
       posts,
       followers,
@@ -31,7 +30,7 @@ function App() {
     } = obj;
     return (
       <div className="post" key={id}>
-        <Nav profile={profile} />
+        <Nav Avatar={Avatar} />
         <Header
           owner={owner}
           profileImg={profileImg}
