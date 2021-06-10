@@ -57,7 +57,7 @@ const Header = ({
           </div>
         </div>
       </div>
-      <div>{subscribers}</div>
+      <div className="followers">{subscribers}</div>
     </div>
   );
 };

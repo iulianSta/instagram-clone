@@ -4,7 +4,7 @@ const Nav = ({ Avatar }) => {
   return (
     <div className="menu">
       <nav>
-        <div>Instagram</div>
+        <div className="logo">Instagram</div>
         <div>
           <input
             type="searchbox"

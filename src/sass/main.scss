@@ -15,6 +15,10 @@
 
 // Test fontawesome icons
 
+.logo {
+  font-family: $lobster;
+  font-size: larger;
+}
 .search {
   width: 10rem;
   @extend %fa-icon;
@@ -145,7 +149,7 @@
     }
   }
   .user-area {
-    width: 55%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -183,10 +187,18 @@
       font-variant: small-caps;
     }
   }
+  p {
+    padding-top: 1em;
+  }
   .owner {
     font-weight: bold;
   }
   .infos {
     color: rgb(6, 155, 248);
+  }
+  .followers {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
   }
 }
