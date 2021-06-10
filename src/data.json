@@ -2,14 +2,10 @@
   {
     "id": 0,
     "owner": "Jackson Wang",
-    "avatar": "./img/bts.png",
-    "profileImg": "Img",
     "posts": "5,343",
     "followers": "598m",
     "following": 98,
     "team": "teamWang",
-    "website": "teamwang.com",
-    "subscribers": "images url",
-    "photos": "photos url"
+    "website": "teamwang.com"
   }
 ]
