@@ -11,7 +11,7 @@ const Gallery = ({ photos, bts }) => {
       </div>
       <div>
         <div>
-          <img src={bts} />
+          <img src={bts} alt="Bts" />
         </div>
         <div>{photos}</div>
       </div>
