@@ -1,3 +1,7 @@
+import Bts from "../img/follow/bts.png";
+import Big from "../img/follow/bigHit.jpg";
+import Chefi from "../img/follow/chefiLaCutite.jpg";
+
 // Header function
 
 const Header = ({
@@ -57,7 +61,11 @@ const Header = ({
           </div>
         </div>
       </div>
-      <div className="followers">{subscribers}</div>
+      <div className="followers">
+        <img src={Bts} alt="Bts" className="bts" />
+        <img src={Big} alt="Bts" className="bts" />
+        <img src={Chefi} alt="Bts" className="bts" />
+      </div>
     </div>
   );
 };

@@ -10,7 +10,7 @@ import Header from "./components/Header";
 import Gallery from "./components/Gallery";
 // Import Data
 import Data from "./data.json";
-import bts from "./img/bts.png";
+
 import Avatar from "./img/i-love-img.jpg";
 import Profile from "./img/jw-profile-img.jpg";
 
@@ -43,7 +43,7 @@ function App() {
           website={website}
           Profile={Profile}
         />
-        <Gallery photos={photos} bts={bts} />
+        <Gallery photos={photos} />
       </div>
     );
   });

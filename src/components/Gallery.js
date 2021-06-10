@@ -1,6 +1,6 @@
 // Gallery function
 
-const Gallery = ({ photos, bts }) => {
+const Gallery = ({ photos }) => {
   return (
     <div>
       <div>
@@ -11,7 +11,7 @@ const Gallery = ({ photos, bts }) => {
       </div>
       <div>
         <div>
-          <img src={bts} alt="Bts" />
+          <img src={photos} alt="Bts" />
         </div>
         <div>{photos}</div>
       </div>
