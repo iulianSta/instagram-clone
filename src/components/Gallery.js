@@ -2,12 +2,22 @@
 
 const Gallery = ({ photos }) => {
   return (
-    <div>
-      <div>
-        <span> POSTS </span>
-        <span> REELS </span>
-        <span> IGTV </span>
-        <span> TAGGED </span>
+    <div className="gallery">
+      <div className="top">
+        <span>
+          <i className="th"></i> POSTS
+        </span>
+        <span>
+          <i className="calendar"></i>
+          <i className="caret"></i>
+          REELS
+        </span>
+        <span>
+          <i className="tv"></i> IGTV
+        </span>
+        <span>
+          <i className="idbadge"></i> TAGGED
+        </span>
       </div>
       <div>
         <div>
