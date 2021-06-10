@@ -1,6 +1,6 @@
 // Nav function
 
-const Nav = ({ avatar }) => {
+const Nav = ({ profile }) => {
   return (
     <div className="menu">
       <nav>
@@ -25,7 +25,9 @@ const Nav = ({ avatar }) => {
           <li>
             <i className="heart"></i>
           </li>
-          <li>{avatar}</li>
+          <li>
+            <img src={profile} alt="i love heart" className="avatar" />
+          </li>
         </ul>
       </nav>
     </div>

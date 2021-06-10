@@ -16,7 +16,7 @@
 // Test fontawesome icons
 
 .search {
-  width: 10rem;
+  width: 7rem;
   @extend %fa-icon;
   @extend .fas;
   &:before {
@@ -51,20 +51,43 @@
     content: fa-content($fa-var-heart);
   }
 }
+.check {
+  @extend %fa-icon;
+  @extend .fas;
+  &:before {
+    content: fa-content($fa-var-check-circle);
+  }
+}
 .menu {
   nav {
     border-top: black 1px solid;
-    width: 100vw;
-    height: 20vh;
+    width: 80vw;
+    height: 10vh;
     padding-top: 1em;
     display: flex;
     justify-content: space-around;
   }
   ul {
-    width: 20vw;
+    width: 15vw;
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-evenly;
     list-style: none;
+    .avatar {
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+  }
+}
+
+.header {
+  width: 80vw;
+  height: 30vh;
+  & > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .user-area {
+    display: flex;
   }
 }

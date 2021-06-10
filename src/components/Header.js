@@ -11,16 +11,22 @@ const Header = ({
   website,
 }) => {
   return (
-    <div>
+    <div className="header">
       <div>
         <div className="user">{profileImg}</div>
         <div>
-          <h3>
-            {owner} <span>&#9745;</span>
-          </h3>
-          <button type="button"> Follow </button>
-          <button type="select"> v </button>
-          <span> ... </span>
+          <div className="user-area">
+            <h3>
+              {owner}{" "}
+              <span>
+                {" "}
+                <i className="check"></i>{" "}
+              </span>
+            </h3>
+            <button type="button"> Follow </button>
+            <button type="select"> v </button>
+            <span> ... </span>
+          </div>
           <div>
             <span> {posts} posts </span>
             <span> {followers} followers </span>

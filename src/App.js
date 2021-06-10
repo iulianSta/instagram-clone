@@ -10,6 +10,8 @@ import Header from "./components/Header";
 import Gallery from "./components/Gallery";
 // Import Data
 import Data from "./data.json";
+import bts from "./img/bts.png";
+import profile from "./img/i-love-img.jpg";
 
 // App function
 function App() {
@@ -29,7 +31,7 @@ function App() {
     } = obj;
     return (
       <div className="post" key={id}>
-        <Nav avatar={avatar} />
+        <Nav profile={profile} />
         <Header
           owner={owner}
           profileImg={profileImg}
@@ -40,7 +42,7 @@ function App() {
           team={team}
           website={website}
         />
-        <Gallery photos={photos} />
+        <Gallery photos={photos} bts={bts} />
       </div>
     );
   });
