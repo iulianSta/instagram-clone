@@ -19,7 +19,7 @@ const Header = ({
         <div>
           <div className="user-area">
             <h3>
-              {owner}{" "}
+              {team}{" "}
               <span>
                 {" "}
                 <i className="check"></i>{" "}
@@ -29,18 +29,30 @@ const Header = ({
             <button type="select"> v </button>
             <span className="more"> ... </span>
           </div>
-          <div>
-            <span> {posts} posts </span>
-            <span> {followers} followers </span>
-            <span> {following} following </span>
+          <div className="content">
+            <div>
+              <span>
+                <strong>{posts}</strong> posts
+              </span>
+              <span>
+                <strong>{followers}</strong> followers
+              </span>
+              <span>
+                <strong>{following}</strong> following
+              </span>
+            </div>
             <p>
-              <span>{team}</span>
+              <span className="owner"> {owner} </span>
               <br />
               <span>
-                Visit our YouTube channel @teamWang to watch our latest videos
+                Visit our YouTube channel{" "}
+                <strong className="infos">@teamWang</strong> to watch our latest
+                videos
               </span>
               <br />
-              <span>{website}</span>
+              <span>
+                <strong className="infos">{website}</strong>
+              </span>
             </p>
           </div>
         </div>
