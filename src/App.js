@@ -35,7 +35,6 @@ function App() {
       following,
       team,
       website,
-      subscribers,
     } = obj;
 
     return (
@@ -44,7 +43,6 @@ function App() {
         <Header
           owner={owner}
           profileImg={profileImg}
-          subscribers={subscribers}
           posts={posts}
           followers={followers}
           following={following}

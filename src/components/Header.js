@@ -7,7 +7,6 @@ import Chefi from "../img/follow/chefiLaCutite.jpg";
 const Header = ({
   owner,
   Profile,
-  subscribers,
   posts,
   followers,
   following,
