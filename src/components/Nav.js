@@ -1,6 +1,10 @@
 // Nav function
 
-const Nav = ({ Avatar }) => {
+const Nav = ({ avatar }) => {
+  // const imgAvatar = Images.map((obj) => {
+  //   const { avatar } = obj;
+  //   return <img src={avatar} alt="i love heart" className="avatar" />;
+  // });
   return (
     <div className="menu">
       <nav>
@@ -25,8 +29,9 @@ const Nav = ({ Avatar }) => {
           <li>
             <i className="heart"></i>
           </li>
+          {/* <li>{imgAvatar}</li> */}
           <li>
-            <img src={Avatar} alt="i love heart" className="avatar" />
+            <img src={avatar} alt="i love heart" className="avatar" />
           </li>
         </ul>
       </nav>

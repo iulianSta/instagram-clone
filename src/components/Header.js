@@ -1,18 +1,29 @@
-import Bts from "../img/follow/bts.png";
-import Big from "../img/follow/bigHit.jpg";
-import Chefi from "../img/follow/chefiLaCutite.jpg";
+import bts from "../img/follow/bts.png";
+import big from "../img/follow/bigHit.jpg";
+import chefi from "../img/follow/chefiLaCutite.jpg";
 
 // Header function
 
 const Header = ({
   owner,
-  Profile,
   posts,
   followers,
   following,
   team,
   website,
+  Profile,
+  // Images,
 }) => {
+  // const followImg = Images.map((obj) => {
+  //   const { bts, big, chefi } = obj;
+  //   return (
+  //     <div className="followers">
+  //       <img src={bts} alt="Bts" className="bts" />
+  //       <img src={big} alt="Big Hit" className="bts" />
+  //       <img src={chefi} alt="Chefi la cutite" className="bts" />
+  //     </div>
+  //   );
+  // });
   return (
     <div className="header">
       <div>
@@ -60,10 +71,11 @@ const Header = ({
           </div>
         </div>
       </div>
+      {/* {followImg} */}
       <div className="followers">
-        <img src={Bts} alt="Bts" className="bts" />
-        <img src={Big} alt="Bts" className="bts" />
-        <img src={Chefi} alt="Bts" className="bts" />
+        <img src={bts} alt="Bts" className="bts" />
+        <img src={big} alt="Big Hit" className="bts" />
+        <img src={chefi} alt="Chefi la cutite" className="bts" />
       </div>
     </div>
   );

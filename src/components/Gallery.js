@@ -1,6 +1,6 @@
 // Gallery function
 
-const Gallery = ({ Ways, Bullet, Dway, Fendiman, Oxygen, Papillon }) => {
+const Gallery = ({ ways, bullet, dway, fendiman, oxygen, papillon }) => {
   return (
     <div className="gallery">
       <div className="top">
@@ -21,14 +21,14 @@ const Gallery = ({ Ways, Bullet, Dway, Fendiman, Oxygen, Papillon }) => {
       </div>
       <div>
         <div className="gallery-area">
-          <img src={Ways} alt="Bts" className="set-image" />
-          <img src={Bullet} alt="Bts" className="set-image" />
-          <img src={Dway} alt="Bts" className="set-image" />
+          <img src={ways} alt="Bts" className="set-image" />
+          <img src={bullet} alt="Bts" className="set-image" />
+          <img src={dway} alt="Bts" className="set-image" />
         </div>
         <div>
-          <img src={Fendiman} alt="Bts" className="set-image" />
-          <img src={Oxygen} alt="Bts" className="set-image" />
-          <img src={Papillon} alt="Bts" className="set-image" />
+          <img src={fendiman} alt="Bts" className="set-image" />
+          <img src={oxygen} alt="Bts" className="set-image" />
+          <img src={papillon} alt="Bts" className="set-image" />
         </div>
       </div>
     </div>
