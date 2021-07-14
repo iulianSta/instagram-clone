@@ -1,0 +1,46 @@
+[
+  {
+    "id": 0,
+    "bts": "./follow/bts.png"
+  },
+  {
+    "id": 1,
+    "big": "./follow/bigHit.jpg"
+  },
+  {
+    "id": 2,
+    "chefi": "./follow/chefiLaCutite.jpg"
+  },
+  {
+    "id": 3,
+    "avatar": "./i-love-img.jpg"
+  },
+  {
+    "id": 4,
+    "profile": "./jw-profile-img.jpg"
+  },
+  {
+    "id": 5,
+    "img": "./100ways.jpg"
+  },
+  {
+    "id": 6,
+    "img": "./bullet-to-the-heart.jpg"
+  },
+  {
+    "id": 7,
+    "img": "./dway.jpg"
+  },
+  {
+    "id": 8,
+    "img": "./fendiman.jpg"
+  },
+  {
+    "id": 9,
+    "img": "./oxygen.jpg"
+  },
+  {
+    "id": 10,
+    "img": "./papillon.jpg"
+  }
+]
